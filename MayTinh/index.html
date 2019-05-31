@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td>Số thứ nhất</td>
+            <td>Số thứ hai</td>
+            <td>Phép tính</td>
+            <td>Kết quả</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="st1"></td>
+            <td><input type="text" id="st2"></td>
+            <td>
+                <input type="button" value="+" onclick="tinhtoan(this.value)" id="pheptinh1">
+                <input type="button" value="-" onclick="tinhtoan(this.value)" id="pheptinh2">
+                <input type="button" value="*" onclick="tinhtoan(this.value)" id="pheptinh3">
+                <input type="button" value="/" onclick="tinhtoan(this.value)" id="pheptinh4">
+            </td>
+            <td><p id="res"></p></td>
+        </tr>
+    </table>
+    <script src="tinhtoan.js">
+
+    </script>
+</form>
+</body>
+</html>
